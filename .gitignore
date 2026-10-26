@@ -1,0 +1,9 @@
+# Segredos (chave da API)
+.env
+
+# Ambiente virtual
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
