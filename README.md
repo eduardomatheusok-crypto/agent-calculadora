@@ -127,7 +127,7 @@ O `.env` está no `.gitignore`. **Nunca envie a sua chave para o GitHub.**
 - **Memória de conversa:** usar um `checkpointer` para o agente entender "multiplique isso por 2".
 - **Descrição dos parâmetros:** docstrings com `Args:` e `@tool(parse_docstring=True)`.
 - **Tratamento de erros:** `timeout`, `max_retries` e `try/except` para falhas da API.
-- **Novas ferramentas:** potência, raiz quadrada, porcentagem.
+- **Novas ferramentas:** potência, raiz quadrada, porcentagem
 
 ## Tecnologias
 
