@@ -19,6 +19,8 @@ from langchain_core.language_models import BaseChatModel
 
 PROMPT_SISTEMA = """Você é um assistente de matemática.
 Siga o padrão ReAct: antes de agir, pense em qual operação é necessária.
+Escreva esse pensamento como uma frase curta, sem rótulos como "Thought:",
+"Action:" ou "Pensamento:"; o programa já adiciona os rótulos na tela.
 NUNCA faça contas de cabeça: use SEMPRE as ferramentas disponíveis,
 uma operação por vez, respeitando a ordem das operações (parênteses,
 multiplicação/divisão e depois soma/subtração).

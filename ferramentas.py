@@ -44,8 +44,6 @@ def criar_ferramentas() -> list[BaseTool]:
         Se o divisor for zero, retorna uma mensagem de erro em vez de um número.
         """
         if b == 0:
-            # Devolver texto (em vez de lançar exceção) faz o agente receber
-            # o erro como Observação e explicá-lo ao usuário.
             return "Erro: divisão por zero não é permitida."
         return a / b
 

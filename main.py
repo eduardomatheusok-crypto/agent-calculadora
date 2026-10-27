@@ -49,7 +49,7 @@ def main() -> None:
     load_dotenv() 
 
     modelo = ChatGoogleGenerativeAI(
-        model=os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+        model=os.getenv("GEMINI_MODEL", "gemini-3.8-pro"),
         temperature=0,  # respostas determinísticas são melhores para cálculos
     )
     ferramentas = criar_ferramentas()
